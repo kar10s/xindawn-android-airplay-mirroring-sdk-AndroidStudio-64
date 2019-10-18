@@ -8,7 +8,7 @@ add_library(
    					com_xindawn_jni_PlatinumJniProxy.cpp 
             )
 
-set(libdir ${PROJECT_SOURCE_DIR}/mediaserver)
+set(libdir ${PROJECT_SOURCE_DIR}/mediaserver/${ANDROID_ABI})
 
 
 target_link_libraries(jniinterface log ${libdir}/libmediaserver.so android)

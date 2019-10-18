@@ -22,7 +22,6 @@
         android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:persistent="true"
-        android:debuggable="false" 
         android:name="com.xindawn.RenderApplication">
              
         
